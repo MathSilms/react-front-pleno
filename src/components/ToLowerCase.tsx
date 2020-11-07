@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 interface ToLowerCaseComponentProps {
-    children:string;
+    children:string ;
 }
 
 class ToLowerCaseComponent extends Component<ToLowerCaseComponentProps> {
