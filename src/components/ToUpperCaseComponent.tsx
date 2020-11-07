@@ -1,15 +1,15 @@
 import React from 'react'
 
 interface ToUpperCaseComponentProps {
-    children: string;
+  children: string
 }
 
-const ToUpperCaseComponent = (props: ToUpperCaseComponentProps) => {
-    return (
-        <div>
-            <p>{props.children.toLocaleUpperCase()}</p>
-        </div>
-    )
+const ToUpperCaseComponent = ( props: ToUpperCaseComponentProps ) => {
+  return (
+    <div>
+      <p>{props.children.toUpperCase()}</p>
+    </div>
+  )
 }
 
 export default ToUpperCaseComponent
